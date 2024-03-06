@@ -1,0 +1,26 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard form helpdesk glpi ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "davidalejo32 <davidalejo32@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "html-to-text": "^9.0.5",
+    "mariadb": "^3.2.3",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1",
+    "sequelize-auto": "^0.8.8"
+  }
+}
